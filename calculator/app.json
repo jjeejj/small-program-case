@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/cal/cal",
+    "pages/calhistory/calhistory",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "计算器",
+    "navigationBarTextStyle":"black"
+  }
+}

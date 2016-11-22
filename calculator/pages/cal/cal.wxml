@@ -1,0 +1,35 @@
+<view class="content">
+    <view class="screen">
+        {{screen}}
+    </view>
+    <view class="btnGroup">
+        <view class="item orange"  bindtap="clickButton" id="{{back}}">退格</view>
+        <view class="item orange" bindtap="clickButton" id="{{clean}}">清屏</view>
+        <view class="item orange" bindtap="clickButton" id="{{negative}}">+/-</view>
+        <view class="item orange" bindtap="clickButton" id="{{plus}}">+</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item blue" bindtap="clickButton" id="{{nine}}">9</view>
+        <view class="item blue" bindtap="clickButton" id="{{eight}}">8</view>
+        <view class="item blue" bindtap="clickButton" id="{{seven}}">7</view>
+        <view class="item orange" bindtap="clickButton" id="{{reduce}}">-</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item blue" bindtap="clickButton" id="{{six}}">6</view>
+        <view class="item blue" bindtap="clickButton" id="{{five}}">5</view>
+        <view class="item blue" bindtap="clickButton" id="{{four}}">4</view>
+        <view class="item orange" bindtap="clickButton" id="{{multiply}}">*</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item blue" bindtap="clickButton" id="{{three}}">3</view>
+        <view class="item blue" bindtap="clickButton" id="{{two}}">2</view>
+        <view class="item blue" bindtap="clickButton" id="{{one}}">1</view>
+        <view class="item orange" bindtap="clickButton" id="{{divide}}">/</view>
+    </view>
+     <view class="btnGroup">
+        <view class="item blue" bindtap="clickButton" id="{{zero}}">0</view>
+        <view class="item blue" bindtap="clickButton" id="{{point}}">.</view>
+        <view class="item blue" bindtap="history" id="{{history}}">历史</view>
+        <view class="item orange" bindtap="clickButton" id="{{equal}}">=</view>
+    </view>
+</view>

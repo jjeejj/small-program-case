@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    box-sizing: border-box;
+    padding-top: 30rpx;
+    padding-bottom: 50rpx;
+    background-color: #77aeb7;
+}
+.item{
+    width: 90%;
+    line-height: 100rpx;
+    border-radius: 3px;
+    padding-left: 3rpx;
+    border: 1px solid #da7c0c;
+    margin: 3rpx;
+    background-color: #f78d1d;
+    color: #fef4e0;
+}

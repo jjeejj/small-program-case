@@ -1,0 +1,8 @@
+<view class="content">
+    <block wx:for="{{historys}}" wx:for-item="history">
+        <view class="item">
+            <view>{{history.expression}}</view>
+            <view>{{history.time}}</view>
+        </view>
+    </block>
+</view>
