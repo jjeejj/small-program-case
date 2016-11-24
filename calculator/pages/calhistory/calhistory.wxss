@@ -1,3 +1,6 @@
+page{
+    height: 100%;
+}
 .content{
     display: flex;
     height: 100%;
