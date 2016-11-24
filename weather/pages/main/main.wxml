@@ -1,0 +1,17 @@
+<import src="../template/itemtpl"/>
+<view class="content">
+    <view class="taday">
+        <view class="info">
+            <view class="temp">{{today.temp}}</view>
+            <view class="weather">{{today.date}}</view>
+            <view class="weather">{{today.weather + ' ' +today.wind + ' ' + today.tempRange}}</view>
+            <view class="suggest">{{today.suggest}}</view>
+            <view class="city">{{city}}</view>
+        </view>
+    </view>
+    <view class="future">
+        <block wx:for="{{future}}">
+            <template is="future-item" data="{{item}}"/>
+        </block>
+    </view>
+</view>
