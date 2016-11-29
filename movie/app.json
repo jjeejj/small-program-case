@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/recommend/recommend",
+    "pages/search/search", 
+    "pages/detail/detail" 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#999",
+    "navigationBarTitleText": "电影",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#dddddd",
+    "selectedColor":"#3ccb1f",
+    "backgroundColor": "#999",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "影院热映",
+        "iconPath":"../../assets/img/movie.png",
+        "selectedIconPath":"../../assets/img/movie-selected.png"
+       }, 
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "电影推荐",
+         "iconPath":"../../assets/img/recommend.png",
+         "selectedIconPath":"../../assets/img/recommend-selected.png"
+      },
+       {
+        "pagePath": "pages/search/search",
+        "text": "查询电影",
+        "iconPath":"../../assets/img/search.png",
+        "selectedIconPath":"../../assets/img/search-selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

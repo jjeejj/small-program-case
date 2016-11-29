@@ -1,0 +1,13 @@
+<import src="../template/movietpl.wxml"/>
+<view class="content">
+    <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="355" height="150"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <!--电影条目-->
+    <template is="movies" data="{{movies}}"/>
+</view>

@@ -1,0 +1,5 @@
+<import src="../template/movietpl.wxml"/>
+<view class="content">
+    <!--电影条目--> 
+    <template is="movies" data="{{movies}}"/>
+</view>
