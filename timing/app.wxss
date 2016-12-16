@@ -14,3 +14,23 @@ page{
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+
+/**************
+    工具样式
+*/
+/*右浮动*/
+.pull-right{
+     float: right;
+}
+.pull-left{
+  float: left
+}
+.margin-20rpx{
+    margin: 20rpx;
+}
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: gray
+}

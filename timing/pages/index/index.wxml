@@ -1,2 +1,15 @@
-<!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<view class="content">
+    <view class="title" bindtap="changeStep">
+        <text class="pull-left">{{"<<"}}</text>{{currentStep.name}}<text class="pull-right">{{">>"}}</text>
+    </view>
+
+    <view class="time">
+        <view class="big-circle">
+
+        </view>
+    </view>
+
+    <view class="desc">
+        <text>{{currentStep.desc}}</text>
+    </view>
+</view>
