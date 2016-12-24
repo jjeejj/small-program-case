@@ -34,3 +34,13 @@ page{
     width: 100%;
     background-color: gray
 }
+/*背景颜色*/
+.blue{
+  background-color: #99ccff;
+}
+.light-blue{
+  background-color: #0099ff;
+}
+.white{
+  background-color: #ffffff;
+}
